@@ -81,6 +81,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "<h3>スコア: $score / 50</h3>";
     echo '<button onclick="location.href=\'score_history.php\'">得点履歴を見る</button>';
 } else {
+
+
     echo "<h1>中１英文法①</h1>";
     echo "<form method=post action=input.php>";
     

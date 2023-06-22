@@ -55,6 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
     $score = 0;
 
+
     foreach ($questions as $index => $question) {
         $selectedAnswer = $_POST['answer' . $index];
         if ($selectedAnswer == $question['correctAnswer']) {
